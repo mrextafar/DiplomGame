@@ -1,4 +1,5 @@
 state = PlayerStateFree;//если нет скобок это значит ты скрипт не вызываешь а просто на него ссылаешься
+lastState = state;
 
 collisionMap = layer_tilemap_get_id(layer_get_id("Col"));
 
@@ -13,3 +14,5 @@ spriteRoll = sPlayerRoll;
 spriteRun = sPlayerRun;
 spriteIdle = sPlayer;
 localFrame = 0;
+
+textBoxDelay = false;///////

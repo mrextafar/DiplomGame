@@ -12,3 +12,8 @@ inputMagnitude = (keyRight - keyLeft != 0) || (keyDown - keyUp !=0);//не да�
 
 
 if (!global.gamePaused) script_execute(state);//? part4,5
+
+depth = -bbox_bottom;
+
+
+if (textBoxDelay) textBoxDelay = false;////////
